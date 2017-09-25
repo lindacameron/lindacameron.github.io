@@ -4,22 +4,22 @@
 h1 {
 	font-size: 68px;
 	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
-	color: green;
+	color: white;
 	font-style: normal;
 }
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background-color: #007FFF;
+	background-color: #f88379;
 }
 .resize{
 	max-width: 45%;
 	max-height: 45%;
 }
-.rotate90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+.rotate270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
