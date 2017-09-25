@@ -1,13 +1,13 @@
 /* Index.html CSS file */
 
-<head>
-<style>
 
+h1 {
+	font-size: 68px;
+	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	color: green;
+	font-style: normal;
 body {
-	<h1 style="color:white; margin-left:30px;"> </h1>
-	background-color: blue;
+	background-color: #add8e6;
 }
 
-</style>
-<head>
 
