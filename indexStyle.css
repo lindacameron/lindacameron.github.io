@@ -4,11 +4,15 @@
 h1 {
 	font-size: 68px;
 	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
 	color: white;
 	font-style: normal;
 }
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	float:center;	
 	background-color: #f88379;
 }
 .resize{
