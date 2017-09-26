@@ -22,8 +22,7 @@ h2 {
 p {
 	margin-left: 20px
 	font-size: 30px;
-	color: #FCFBE3;
-	< ! #888888 >
+	color: #fffdd0;
 	margin-bottom: 20px;
 }
 
@@ -36,13 +35,13 @@ h3 {
 
 h4 {
 	margin-left: 15px
-	color:white;
+	color: white;
 	font-size: 45px;
 }
 
 h5 {
 	margin-left: 15px
-	color:white;
+	color: white;
 	font-size: 45px;
 }
 h6 {
