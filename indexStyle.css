@@ -27,6 +27,10 @@ p {
 
 }
 
+a {
+	position: relative;
+}
+
 img.imgedit {
 	display: block;
   	margin-left: auto;
@@ -42,3 +46,4 @@ img.imgedit {
 
 a:hover {
 	color: #40e0d0
+}
