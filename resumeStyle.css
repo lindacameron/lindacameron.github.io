@@ -16,13 +16,12 @@ h2 {
 	margin-left: 15px;
 	color: white;
 	font-size: 50px;
-
+	margin-bottom: 20px;
 }
 
 p {
 	margin-left: 20px;
-	margin-top: 10px;
-	font-size: 30px;
+	font-size: 20px;
 	color: #fffdd0;
 	margin-bottom: 20px;
 }
@@ -31,25 +30,28 @@ h3 {
 	margin-left: 15px;
 	color: white;
 	font-size: 35px;
-
+	margin-bottom: 15px
 }
 
 h4 {
 	margin-left: 15px;
 	color: white;
 	font-size: 35px;
+	margin-bottom: 15px;
 }
 
 h5 {
 	margin-left: 15px;
 	color: #ffffff;
 	font-size: 35px;
+	margin-bottom: 15px;
 }
 
 h6 {
 	margin-left: 15px;
 	color: #ffffff;
 	font-size: 35px;
+	margin-bottom: 15px;
 }
 
 
