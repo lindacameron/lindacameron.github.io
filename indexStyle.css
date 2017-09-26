@@ -1,4 +1,4 @@
-
+/* Style sheet for index.html*/
 
 h1 {
 	font-size: 68px;
@@ -45,5 +45,5 @@ img.imgedit {
 }
 
 a:hover {
-	color: #f88379;
+	color: #fd7c89;
 }
