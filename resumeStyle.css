@@ -1,8 +1,8 @@
-/* Style sheet for Resume.html */
+/* Style sheet for resume.html */
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background-color: #f88379
+	background-color: #2f356b
 
 }
 
@@ -13,41 +13,43 @@ h1 {
 }
 
 h2 {
-	margin-left: 15px
+	margin-left: 15px;
 	color: white;
-	font-size: 60px;
+	font-size: 50px;
 
 }
 
 p {
-	margin-left: 20px
+	margin-left: 20px;
+	margin-top: 10px;
 	font-size: 30px;
 	color: #fffdd0;
 	margin-bottom: 20px;
 }
 
 h3 {
-	margin-left: 15px
+	margin-left: 15px;
 	color: white;
-	font-size: 45px;
+	font-size: 35px;
 
 }
 
 h4 {
-	margin-left: 15px
+	margin-left: 15px;
 	color: white;
-	font-size: 45px;
+	font-size: 35px;
 }
 
 h5 {
-	margin-left: 15px
-	color: white;
-	font-size: 45px;
+	margin-left: 15px;
+	color: #ffffff;
+	font-size: 35px;
 }
+
 h6 {
 	margin-left: 15px;
-	color: white;
-	font-size: 45px;
+	color: #ffffff;
+	font-size: 35px;
 }
 
 
