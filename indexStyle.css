@@ -13,19 +13,19 @@ h1 {
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	margin-left:50px;	
-	<!background-color: #f88379>
+	/*background-color: #f88379 */
 	background-color: #778fb6;
 }
 p {
 	text-align: center;
-	word-spacing: 20px;
+	word-spacing: 30px;
 	font-size: 40px;
 	font-family: Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	color: white;
 	font-style: normal;
 	font-weight: 100;
-	margin-top: 40px;
+	margin-top: 100px;
 
 }
 
