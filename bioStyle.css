@@ -2,17 +2,53 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background-color:#778fb6;	
+	background-color: #425196;	
+	background-color: #3c6fc1;
+
+	background:-o-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
+	background:-moz-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
+	background:-ms-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
+	background:linear-gradient(-179deg, #425196 0%,#fc8f9a 100%);
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
 }
+
 h1 {
-	text-align: center;
 	font-size: 60px;
 	color: white;
+}
 
+/*.bio-container {
+	display:flex;
+	justify-content: center;
+}*/
+
+#bio {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#text {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-left: 50px;
+	margin-top: 50px;
+	margin: 5%
+}
+
+.photo {
+	display: flex;
+	justify-content: flex-end;
+	/*flex-direction: column;*/
+	margin-right: 15%;
+	margin-top: 8%;
+	/*-webkit-justify-content: flex-end;*/
 }
 
 p {
-	color: #fffdd0;
+	color: white;
 	margin-top: 20px;
-	text-align: center;
 }
