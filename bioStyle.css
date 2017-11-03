@@ -30,6 +30,31 @@ h1 {
 	justify-content: space-between;
 }
 
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+
+}
+#home {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#nothome {
+	display: flex; 
+	text-align: right; 
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
 #text {
 	display: flex;
 	justify-content: flex-start;
@@ -48,7 +73,18 @@ h1 {
 	/*-webkit-justify-content: flex-end;*/
 }
 
+a {
+	color:white;
+	margin-top: 5px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
 p {
 	color: white;
 	margin-top: 20px;
+}
+
+a:hover {
+	color: #fc8f9a;
 }
