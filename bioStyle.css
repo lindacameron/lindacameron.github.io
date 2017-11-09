@@ -4,7 +4,6 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: #425196;	
 	background-color: #3c6fc1;
-    height: 100vh;
 	background:-o-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
 	background:-moz-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
 	background:-ms-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
@@ -14,6 +13,9 @@ body {
 
 }
 
+.bio_body {
+	height: 100vh;
+}
 
 h1 {
 	font-size: 60px;

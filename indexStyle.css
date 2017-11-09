@@ -8,10 +8,16 @@ h1 {
 	text-align: center;
 	color: white;
 	font-style: normal;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 
 }
 
+h2 {
+	font-size: 30px;
+	font-family: "Avenir-Light", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 200;
+	color: white;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 
@@ -34,6 +40,7 @@ hr {
 	border-style: inset;
 	border-width: 2px;
 	color: white;
+	width: 80vw;
 	border-color: white;
 }
 

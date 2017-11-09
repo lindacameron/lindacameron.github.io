@@ -10,9 +10,11 @@ body {
 	background:linear-gradient(-179deg, #425196 0%,#fc8f9a 100%);
 	background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    
 }
-
+.work_body {
+	height: 100vh;
+}
 h1 {
 	font-size: 60px;
 	color: white;
