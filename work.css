@@ -10,14 +10,15 @@ body {
 	background:linear-gradient(-179deg, #425196 0%,#fc8f9a 100%);
 	background-repeat: no-repeat;
     background-position: center;
-    
+    color:white;
+
 }
 .work_body {
 	height: 100vh;
 }
 h1 {
 	font-size: 60px;
-	color: white;
+	color:white;
 	text-align: center;
 	font-weight: 200;
 }
@@ -36,7 +37,7 @@ p {
 
 }
 .header {
-	margin-top: 3%;
+	margin-top: 49px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -67,7 +68,7 @@ hr {
 	margin-top: 0.5em;
 	margin-left: auto;
 	border-style: inset;
-	width: 75vw;
+	width: 80vw;
 	border-width: 1px;
 	color: white;
 	border-color: white;
