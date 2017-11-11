@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 	font-weight: 200;
 }
@@ -107,14 +107,13 @@ hr {
 a {
 	color:white;
 	margin: 5px;
-	margin-top: 5px;
 	text-decoration: none;
 	font-size: 30px;
 }
 
 p {
 	color: white;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 a:hover {
