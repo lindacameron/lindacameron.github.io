@@ -25,10 +25,10 @@ body {
 	text-align: center;
 	background-color: #3c6fc1;
 
-	background:-o-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
-	background:-moz-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
-	background:-ms-linear-gradient(-89deg, #425196 0%, #fc8f9a 100%);
-	background:linear-gradient(-179deg, #425196 0%,#fc8f9a 100%);
+	background:-o-linear-gradient(-89deg, #425196 0%, #7ab9ec 100%);
+	background:-moz-linear-gradient(-89deg, #425196 0%, #7ab9ec 100%);
+	background:-ms-linear-gradient(-89deg, #425196 0%, #7ab9ec 100%);
+	background:linear-gradient(-179deg, #425196 0%,#7ab9ec 100%);
 	background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
