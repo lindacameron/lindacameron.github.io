@@ -19,6 +19,12 @@ h2 {
 	color: white;
 }
 
+h3 {
+	font-size: 40px;
+	font-family: "Avenir-Light", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	color:black;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 
@@ -33,6 +39,8 @@ body {
     background-position: center;
     height: 100vh;
 }
+
+
 
 #icons {
 	display: flex;
@@ -105,4 +113,9 @@ img.imgedit {
 
 a:hover {
 	color: white;
+}
+
+.about_me {
+	font-size: 20px;
+	color: black;
 }
