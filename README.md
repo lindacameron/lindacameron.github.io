@@ -6,5 +6,5 @@ Assignment One
 
 2) No collaboration was done on this assignment
 
-3) Approximately 3 hours was spent on this assignmenet.
+3) Approximately 3 hours were spent on this assignment.
 
