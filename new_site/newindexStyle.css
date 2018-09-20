@@ -1,0 +1,40 @@
+/* Style sheet for newindex.html */
+
+.home {
+	background-color: white;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 100px;
+}
+
+.demos {
+	margin-bottom: 170px;
+}
+h3 {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.sections {
+	margin-top: 100px;
+}
+
+#icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.about_me {
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Linda Cameron </title>
+	<link rel="stylesheet" href="newindexStyle.css" />
+	<link rel="icon" type="img/png" href="LClogo.png">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+	<script type="text/javascript">
+		var j = 0;
+		var txt2 = 'Welcome to my Site!';
+		var speed2 = 80;		
+		
+		function linetwo() {
+			if (j < txt2.length) {
+				document.getElementById("demo2").innerHTML += txt2.charAt(j);
+		    	j++;
+		    	setTimeout(linetwo, speed2);
+		}
+	}
+	</script>
+</head>
+
+
+<body onload = "typeWriter()">
+	<div class = "home">
+		
+		<div class = "demos">
+			<h2 id="demo"></h2>
+			<h3 id="demo2"></h3>
+			<script>
+				linetwo();
+			</script>
+		</div>
+
+		<h4>Scroll down for more</h4>
+		<img src="new_site/down_arrow.png" alt = "arrow" class="arrow"></a>
+
+		<div class = "icons">
+			<a href = "https://www.linkedin.com/in/linda-cameron/"><img src ="new_site/blacklinkedin.png" alt ="linkedin" class="linkedin"></a>
+			<a href = "mailto:lindacameron17@gmail.com"><img src="email.png" alt = "email" class="email"></a>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<div class = "about_me">
+		<h3>About me</h3>
+			<p>Hello! My name is Linda and I am a Senior at Tufts studying Computer Science and Human Factors Engineering. I love learning, building, and problem-solving, and I am very interested in the design of things, the internet of things, and marketing/advertising.
+			</p>
+	 </div>
+	 
+	 <div class = "work">
+	 	<h3>WORK</h3>
+
+	 	<div class = "verizon">
+	 		<h4>Verizon</h4>
+	 		<p> This past summer (2018), I worked at Verizon as a Data Analtics and Artificial Intelligence intern. I worked on two chatbots over the course of my internship, and learned a great deal about the chatbot sphere. I first worked on the Verizon Career Chatbot which is an external facing platform that is to be used by potential Verizon employee applicants. Users can use the chatbot to get answers to questions about basic application questions.
+
+	 		I then integrated a Google Calendar Service with the already existing Verizon Digital Assistant, which is an internal chatbot used by emploeyes. </p>
+	 	</div>	
+	 </div>
+
+
+<script>
+	var i = 0;
+	var txt = "Hello, I'm Linda. \n";
+	//var txt2 = 'Welcome to my Site!';
+	var speed = 80;
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("demo").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+	  }
+/*
+	  if (j < txt2.length) {
+	  	document.getElementById("demo").innerHTML += txt2.charAt(j);
+	  	j++
+	  	setTimeout(typeWriter, speed);
+	  }*/
+	 // linetwo();
+	}
+
+	/*function linetwo() {
+		if (j < txt2.length) {
+			document.getElementById("demo2").innerHTML += txt2.charAt(j);
+	    	j++;
+	    	setTimeout(linetwo, speed2);
+		}
+	}*/
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* Style sheet for enp149blog.html */
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: white;
+	font-size:20px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 200px;
+}
+
+.content {
+	margin-left: 100px;
+	margin-right: 100px;
+}
