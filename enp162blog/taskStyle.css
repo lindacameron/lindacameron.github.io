@@ -1,0 +1,16 @@
+/* Style sheet for taskAnalysisBlog.html */
+
+h1 {
+	text-align: center;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.pb_toast {
+	text-align: center;
+}
