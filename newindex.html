@@ -11,7 +11,7 @@
 	<script type="text/javascript">
 		var j = 0;
 		var txt2 = 'Welcome to my Site!';
-		var speed2 = 80;		
+		var speed2 = 50;		
 		
 		function linetwo() {
 			if (j < txt2.length) {
@@ -23,8 +23,8 @@
 	</script>
 </head>
 
-
 <body onload = "typeWriter()">
+	<!--HOMEPAGE-->
 	<div class = "home">
 		
 		<div class = "demos">
@@ -35,15 +35,36 @@
 			</script>
 		</div>
 
+			
 		<h4>Scroll down for more</h4>
 		<img src="new_site/down_arrow.png" alt = "arrow" class="arrow"></a>
-
-		<div class = "icons">
-			<a href = "https://www.linkedin.com/in/linda-cameron/"><img src ="new_site/blacklinkedin.png" alt ="linkedin" class="linkedin"></a>
-			<a href = "mailto:lindacameron17@gmail.com"><img src="email.png" alt = "email" class="email"></a>
-		</div>
-
 	</div>
+
+	<!--Navigation Bar-->
+	<div class = "nav_bar">
+		<span class = "home">
+		<a href = #home onclick="scrollToTop();
+			return false">Home</a>
+		</span>
+
+		<span class = "righthead">
+			<a href = "resume.pdf">Resume</a>
+		<span class = "righthead">
+			<a href = "#work">Work</a>
+		</span>
+		<span class = "righthead">
+			<a href = "#projects">Projects</a>
+		</span>
+		<span class = "righthead">
+			<a href = "#contact">Contact Me</a>
+		</span>
+	</div>
+	
+	<div class = "icons">
+		<a href = "https://www.linkedin.com/in/linda-cameron/"><img src ="new_site/blacklinkedin.png" alt ="linkedin" class="linkedin"></a>
+		<a href = "mailto:lindacameron17@gmail.com"><img src="email.png" alt = "email" class="email"></a>
+	</div>
+
 
 	<hr>
 
@@ -52,9 +73,9 @@
 			<p>Hello! My name is Linda and I am a Senior at Tufts studying Computer Science and Human Factors Engineering. I love learning, building, and problem-solving, and I am very interested in the design of things, the internet of things, and marketing/advertising.
 			</p>
 	 </div>
-	 
+	 <br>
 	 <div class = "work">
-	 	<h3>WORK</h3>
+	 	<h3>Work</h3>
 
 	 	<div class = "verizon">
 	 		<h4>Verizon</h4>
@@ -67,7 +88,7 @@
 
 <script>
 	var i = 0;
-	var txt = "Hello, I'm Linda. \n";
+	var txt = "Hello, I'm Linda.\n";
 	//var txt2 = 'Welcome to my Site!';
 	var speed = 80;
 
@@ -93,7 +114,6 @@
 	    	setTimeout(linetwo, speed2);
 		}
 	}*/
-
 </script>
 
 </body>

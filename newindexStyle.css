@@ -12,8 +12,13 @@
 .demos {
 	margin-bottom: 170px;
 }
+.nav_bar {
+	font-size: 20px;
+	
+}
 h3 {
 	font-size: 35px;
+	text-align: center;
 }
 
 h4 {
@@ -37,4 +42,11 @@ h4 {
 	margin-left: 50px;
 	margin-right: 50px;
 	text-align: center;
+}
+
+.work {
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
 }

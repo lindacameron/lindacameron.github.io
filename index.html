@@ -13,21 +13,21 @@
   		window.dataLayer = window.dataLayer || [];
   		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
-
   		gtag('config', 'UA-126196172-1');
 	</script>
 
 </head>
 
-<body>
+<body onload = "typeWriter()">
 	<h1>Linda Cameron</h1>
 	<div class = "icons">
-		<a href = "https://www.linkedin.com/in/linda-cameron/"><img src ="linkedin.png" alt ="linkedin" class="linkedin"></a>
+		<a href = "https://www.linkedin.com/in/linda-cameron/"><img src ="whitelinked.png" alt ="linkedin" class="linkedin"></a>
 		<!--<img src="biglogo.png" alt = "logo" class="logo">-->
 		<a href = "mailto:lindacameron17@gmail.com"><img src="email.png" alt = "email" class="email"></a>
 	</div>
-
-	<h2>Hello! Welcome to my site!</h2>
+	
+	<h2 id="demo"></h2>
+	<!--<h2>Hello! Welcome to my site!</h2>-->
 	<hr>
 	<p class= "sections">
 		<a id= "bio" href="bio.html">Bio</a>
@@ -36,4 +36,19 @@
 	</p>
 </body>
 
+<script>
+	var i = 0;
+	var txt = "Hello. Welcome to my site!\n";
+	//var txt2 = 'Welcome to my Site!';
+	var speed = 80;
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("demo").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+	   }
+	}   
+
+</script>
 </html>
