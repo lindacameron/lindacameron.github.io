@@ -2,12 +2,16 @@
 
 h1 {
 	text-align: center;
+	color: white;
 }
 
+h2 {
+	color:white;
+}
 body {
-	background-color: white;
+	background-color: #259996;
 	font-size:20px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', serif;
 	text-align: center;
 	margin-top: 75px;
 	margin-bottom: 200px;
@@ -28,4 +32,15 @@ p {
 	justify-content: flex-start;
 	text-align: left;
 	margin-left: 8%;
+}
+
+a {
+	position: relative;
+	font-style:normal;
+	text-decoration: none;
+	color: #2e5cb8;/*#425185;*/
+}
+
+a:hover {
+	color: #fc8f9a;
 }
