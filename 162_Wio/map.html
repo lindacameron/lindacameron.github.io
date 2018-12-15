@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Stress and Common Spaces</title>
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+	<title>Factors Affecting Stress</title>
+
+	<h1>Factors Affecting Stress</h1>
+
+	<div class = "kitchen_maps">
+		<img src = "Kitchen_blank.png" id = "kitchen_map" alt= "Kitchen">
+	</div>
+
+	<h4>Pick A Time of Day and A Sensor</h4>
+	<form id="form">
+		<h3>Time of Day</h3>
+		<div id = "timeform">
+			<input type="radio" id = "timeVal" name = "timeVal" value="AM">  Morning<br>
+			<input type="radio" id = "timeVal" name = "timeVal" value="Noon">  Midday<br>
+			<input type="radio" id = "timeVal" name = "timeVal" value="Evening">  Evening<br>
+		</div>
+
+		<div id = "sensorform">
+			<h3>Sensor Type</h3>
+			<input type="radio" id = "sensorVal" name = "sensorVal" value="loud">  Loudness<br>
+			<input type="radio" id = "sensorVal" name = "sensorVal" value="motion">  Motion<br>
+			<input type="radio" id = "sensorVal" name = "sensorVal" value="Stress">  Stress<br>
+			<input type="radio" id = "sensorVal" name = "sensorVal" value="All">  All Three<br>
+		</div>
+	</form>
+
+	<button onclick = "loadData()" id = "mapSubmit" class = "menu_button">Submit</button>
+
+	</div>
+
+<script>
+	
+	function loadData() {
+		//var times = document.getElementById("timeform");
+		//var times = document.getElementById("timeform").elements[timeVal];
+		var times = document.getElementsByName('timeVal');
+		var sensors = document.getElementsByName('sensorVal');
+
+		for (var i = 0; i < times.length; i++) {
+			if (times[i].checked) {
+				var chosenTime = times[i].value;
+			}
+		}
+		for (var i = 0; i < sensors.length; i++) {
+			if (sensors[i].checked) {
+				var chosenSensor = sensors[i].value;
+			}
+		}
+		console.log(chosenTime);
+		console.log(chosenSensor);
+	}
+
+
+</script>
+
+</body>
+
+
+</html>

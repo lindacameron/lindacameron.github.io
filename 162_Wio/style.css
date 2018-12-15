@@ -1,0 +1,99 @@
+/* style.css */
+
+h1 {
+	font-size: 68px;
+	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	padding-top: 25px;
+	text-align: center;
+	color: white;
+	font-style: normal;
+}
+h2 {
+	font-size: 32px;
+	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	padding-bottom: 60px;
+	color: white;
+	font-style: normal;
+}
+
+h3 {
+	font-size: 20px;
+	color:white;
+}
+
+h4 {
+	font-size: 32px;
+	text-align: right;
+	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	background-color: #009999;
+	font-family: "Avenir-Light", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	/*background:-o-linear-gradient(-70deg, #009BB9 0%, #0EDCAD 100%);
+	background:-moz-linear-gradient(-70deg, #009BB9 0%, #0EDCAD 100%);
+	background:-ms-linear-gradient(-70deg, #009BB9 0%, #0EDCAD 100%);
+	background:linear-gradient(90deg, #009BB9 0%,#0EDCAD 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; */
+}
+
+#kitchen_maps {
+	display: flex;
+	justify-content: left;
+}
+
+.kitchen_maps {
+	display: flex;
+	justify-content: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+form {
+	font-size: 20px;
+	color: white;
+	margin-left: 70%;
+	display: flex;
+	justify-content: right;
+	margin-top: 50px;
+}
+
+.splash_body {
+	height: 100vh;
+}
+
+.mapSubmit {
+	margin-left: 70%;
+	position: relative;
+}
+
+button {
+	font-size: 40px;
+	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	height: 10%;
+	width: 15%;
+	background-color: transparent;
+	border-color: white;
+	border-width: 2%;
+	color: white;
+	text-align: center;
+	border-style: solid;
+	outline: none !important;
+}
+
+button:active{
+	outline: none !important;
+}
+
+button:hover {
+	background-color: white;
+	color: #009999;
+}
