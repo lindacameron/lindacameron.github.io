@@ -26,10 +26,9 @@
 				<div id = "timeform">
 				<h3>Time of Day</h3>
 					<input type="radio" id = "timeVal" name = "timeVal" value="AM">  Morning<br>
-					<input type="radio" id = "timeVal" name = "timeVal" value="Noon">  Midday<br>
+					<input type="radio" id = "timeVal" name = "timeVal" value="Noon">  Afternoon<br>
 					<input type="radio" id = "timeVal" name = "timeVal" value="Evening">  Evening<br>
 				</div>
-
 				<div id = "sensorform">
 					<h3>Sensor Type</h3>
 					<input type="radio" id = "sensorVal" name = "sensorVal" value="loud">  Loudness<br>
@@ -71,34 +70,56 @@
 		console.log(time);
 		console.log(sensor);
 		if (time == "AM" && sensor == "loud") {
-
+			var photo = 'Loudness-Morning.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Noon" && sensor == "loud") {
-
+			var photo = 'Loudness-Afternoon.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Evening" && sensor == "loud") {
-			var photo = 'chatbot.png'
+			var photo = 'Loudness-Evening.png'
 			var picID = document.getElementById("kitchen_map");
 			picID.src = photo;
 		} //Motion Sensor
 		else if (time == "AM" && sensor == "motion") {
-
+			var photo = 'Motion-Morning.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Noon" && sensor == "motion") {
-
+			var photo = 'Motion-Afternoon.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Evening" && sensor == "motion") {
-			
+			var photo = 'Motion-Evening.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} //Stress Sensor
 		else if (time == "AM" && sensor == "Stress") {
-
+			var photo = 'Button-Morning.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Noon" && sensor == "Stress") {
-
+			var photo = 'Button-Afternoon.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Evening" && sensor == "Stress") {
-			
+			var photo = 'Button-Evening.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} //All Sensors
 		else if (time == "AM" && sensor == "All") {
-
+			var photo = 'All-Morning.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Noon" && sensor == "All") {
-
+			var photo = 'All-Afternoon.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else if (time == "Evening" && sensor == "All") {
-			
+			var photo = 'All-Evening.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
 		} else {
 			var photo = "chatbot.png"
 			var picID = document.getElementByID("kitchen_map");
