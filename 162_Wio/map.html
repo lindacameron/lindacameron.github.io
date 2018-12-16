@@ -4,8 +4,7 @@
 
 <head>
 	<title>Stress and Common Spaces</title>
-	<link rel="stylesheet" href="style.css" />
-
+	<link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
@@ -13,37 +12,43 @@
 
 	<h1>Factors Affecting Stress</h1>
 
-	<div class = "kitchen_maps">
-		<img src = "Kitchen_blank.png" id = "kitchen_map" alt= "Kitchen">
-	</div>
-
-	<h4>Pick A Time of Day and A Sensor</h4>
-	<form id="form">
-		<h3>Time of Day</h3>
-		<div id = "timeform">
-			<input type="radio" id = "timeVal" name = "timeVal" value="AM">  Morning<br>
-			<input type="radio" id = "timeVal" name = "timeVal" value="Noon">  Midday<br>
-			<input type="radio" id = "timeVal" name = "timeVal" value="Evening">  Evening<br>
+	<div class = "content">
+		
+		<div class = "kitchen_maps">
+			<img src = "Kitchen_blank.png" class = "map" id = "kitchen_map" alt= "Kitchen">
 		</div>
 
-		<div id = "sensorform">
-			<h3>Sensor Type</h3>
-			<input type="radio" id = "sensorVal" name = "sensorVal" value="loud">  Loudness<br>
-			<input type="radio" id = "sensorVal" name = "sensorVal" value="motion">  Motion<br>
-			<input type="radio" id = "sensorVal" name = "sensorVal" value="Stress">  Stress<br>
-			<input type="radio" id = "sensorVal" name = "sensorVal" value="All">  All Three<br>
-		</div>
-	</form>
+		<div class = "map_forms">
+			
+			<h4>Pick Time of Day and A Sensor</h4>
+			
+			<form id="form">
+				
+				<h3>Time of Day</h3>
+				<div id = "timeform">
+					<input type="radio" id = "timeVal" name = "timeVal" value="AM">  Morning<br>
+					<input type="radio" id = "timeVal" name = "timeVal" value="Noon">  Midday<br>
+					<input type="radio" id = "timeVal" name = "timeVal" value="Evening">  Evening<br>
+				</div>
 
-	<button onclick = "loadData()" id = "mapSubmit" class = "menu_button">Submit</button>
+				<div id = "sensorform">
+					<h3>Sensor Type</h3>
+					<input type="radio" id = "sensorVal" name = "sensorVal" value="loud">  Loudness<br>
+					<input type="radio" id = "sensorVal" name = "sensorVal" value="motion">  Motion<br>
+					<input type="radio" id = "sensorVal" name = "sensorVal" value="Stress">  Stress<br>
+					<input type="radio" id = "sensorVal" name = "sensorVal" value="All">  All Three<br>
+				</div>
+			</form>
+
+			<button onclick = "loadData()" id = "mapSubmit" class = "menu_button">Submit</button>
+		</div>
 
 	</div>
+
 
 <script>
 	
 	function loadData() {
-		//var times = document.getElementById("timeform");
-		//var times = document.getElementById("timeform").elements[timeVal];
 		var times = document.getElementsByName('timeVal');
 		var sensors = document.getElementsByName('sensorVal');
 
@@ -59,12 +64,53 @@
 		}
 		console.log(chosenTime);
 		console.log(chosenSensor);
+		loadPicture(chosenTime, chosenSensor);
+	}
+
+	function loadPicture(time, sensor) {
+		// Loud Sensor 
+		console.log(time);
+		console.log(sensor);
+		if (time == "AM" && sensor == "loud") {
+
+		} else if (time == "Noon" && sensor == "loud") {
+
+		} else if (time == "Evening" && sensor == "loud") {
+			console.log("here");
+			var photo = 'chatbot.png'
+			var picID = document.getElementById("kitchen_map");
+			picID.src = photo;
+		} //Motion Sensor
+		else if (time == "AM" && sensor == "motion") {
+
+		} else if (time == "Noon" && sensor == "motion") {
+
+		} else if (time == "Evening" && sensor == "motion") {
+			
+		} //Stress Sensor
+		else if (time == "AM" && sensor == "Stress") {
+
+		} else if (time == "Noon" && sensor == "Stress") {
+
+		} else if (time == "Evening" && sensor == "Stress") {
+			
+		} //All Sensors
+		else if (time == "AM" && sensor == "All") {
+
+		} else if (time == "Noon" && sensor == "All") {
+
+		} else if (time == "Evening" && sensor == "All") {
+			
+		} else {
+			var photo = "chatbot.png"
+			var picID = document.getElementByID("kitchen_map");
+			picID.src = photo;
+		}
 	}
 
 
 </script>
 
 </body>
-
 
 </html>

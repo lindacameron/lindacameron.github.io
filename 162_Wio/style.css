@@ -1,4 +1,4 @@
-/* style.css */
+/* styleTest.css */
 
 h1 {
 	font-size: 68px;
@@ -27,6 +27,7 @@ h4 {
 	font-size: 32px;
 	text-align: right;
 	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	margin-left: 50%;
 }
 
 body {
@@ -45,34 +46,27 @@ body {
 	background-size: 100% 100%; */
 }
 
-#kitchen_maps {
-	display: flex;
-	justify-content: left;
+.kitchen_maps {
+	margin-top: 50px;
+	float: left;
+	margin-left: 150px;
 }
 
-.kitchen_maps {
-	display: flex;
-	justify-content: left;
-	margin-left: 50px;
-	margin-top: 50px;
+.map_forms {
+	margin-right: 150px;
+	float: right;
+}
+
+.form {
+	font-size: 20px;
+	color: white;
 }
 
 form {
 	font-size: 20px;
 	color: white;
 	margin-left: 70%;
-	display: flex;
-	justify-content: right;
-	margin-top: 50px;
-}
-
-.splash_body {
-	height: 100vh;
-}
-
-.mapSubmit {
-	margin-left: 70%;
-	position: relative;
+	margin-top: 0%;
 }
 
 button {
