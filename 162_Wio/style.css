@@ -8,6 +8,7 @@ h1 {
 	color: white;
 	font-style: normal;
 }
+
 h2 {
 	font-size: 32px;
 	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
@@ -26,7 +27,8 @@ h3 {
 h4 {
 	font-size: 32px;
 	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
-	margin-right: 50%;
+	margin-right: 20%;
+	margin-top: 5px;
 }
 
 body {
@@ -46,7 +48,7 @@ body {
 }
 
 .kitchen_maps {
-	margin-top: 50px;
+	margin-top: 30px;
 	float: left;
 	margin-left: 150px;
 }
@@ -56,23 +58,30 @@ body {
 	float: right;
 }
 
-.form {
+.bothforms {
 	font-size: 20px;
 	color: white;
+}
+
+.timeform {
+	margin-right: 40px;
+}
+
+.sensorform {
+	margin-right: 10px;
 }
 
 form {
 	font-size: 20px;
 	color: white;
 	margin-left: 40%;
-	margin-top: 0%;
 }
 
 button {
-	font-size: 40px;
+	font-size: 30px;
 	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
 	height: 10%;
-	width: 15%;
+	width: 30%;
 	background-color: transparent;
 	border-color: white;
 	border-width: 2%;
@@ -80,6 +89,8 @@ button {
 	text-align: center;
 	border-style: solid;
 	outline: none !important;
+	margin-left: 37%;
+	margin-top: 10px;
 }
 
 button:active{
