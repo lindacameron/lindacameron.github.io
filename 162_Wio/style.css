@@ -3,7 +3,7 @@
 h1 {
 	font-size: 68px;
 	font-family: "Avenir-Medium", Helvetica, "Helvetica Neue", Arial, sans-serif;
-	padding-top: 25px;
+	padding-top: 10px;
 	text-align: center;
 	color: white;
 	font-style: normal;
@@ -31,6 +31,19 @@ h4 {
 	margin-top: 1px;
 }
 
+h5 {
+	font-size: 25px;
+	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-weight: lighter;
+	margin-top: 1px;
+}
+h6 {
+	font-size: 25px;
+	font-family: "Avenir", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 1px;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 50px;
@@ -53,6 +66,14 @@ body {
 	margin-left: 150px;
 }
 
+.tags {
+	float: left;
+	margin-left: 150px;
+}
+.senseTag {
+	float: left;
+	margin-left: 170px;
+}
 .map_forms {
 	margin-right: 150px;
 	float: right;
